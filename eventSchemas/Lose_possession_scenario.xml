@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<Event cBy="MJE" cDate="08/21/2001 09:01:48 PDT Tue" name="Lose_possession_scenario" ID="212" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <definition>&lt;def-root&gt;This is the Frame which binds together the initial state of the &lt;fen&gt;Donor&lt;/fen&gt; possessing the &lt;fen&gt;Theme&lt;/fen&gt;, the transfer, and the final state of the &lt;fen&gt;Donor&lt;/fen&gt; not possessing the &lt;fen&gt;Theme&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    <semType name="Non-Lexical Frame" ID="16"/>
+    <Arg bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="09/03/2002 05:22:43 PDT Tue" abbrev="Don" name="Donor" ID="3687">
+        <definition>&lt;def-root&gt;The entity that began by owning the Theme.&lt;/def-root&gt;</definition>
+    </Arg>
+    <Arg bgColor="800080" fgColor="FFFFFF" coreType="Core" cBy="MJE" cDate="09/03/2002 05:22:43 PDT Tue" abbrev="Th" name="Theme" ID="3688">
+        <definition>&lt;def-root&gt;The thing which was originally owned by the &lt;fen&gt;Donor&lt;/fen&gt;.
+(This does not include bodyparts or medical conditions, but does include intellectual property, etc.)&lt;/def-root&gt;</definition>
+        <semType name="Physical_object" ID="68"/>
+    </Arg>
+                                                                                            </Event>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="frame.xsl"?>
+<Event cBy="RLG" cDate="07/14/2011 03:07:35 PDT Thu" name="Deception_success" ID="2573" xsi:schemaLocation="../schema/frame.xsd" xmlns="http://framenet.icsi.berkeley.edu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <definition>&lt;def-root&gt;A Deceiver successfully causes a Victim to end up with incorrect beliefs about a Topic. The Victim comes to these beliefs from perceiving a Deception.&lt;/def-root&gt;</definition>
+    <semType name="Non-perspectivalized_frame" ID="52"/>
+    <Arg bgColor="FF0000" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="07/14/2011 03:07:35 PDT Thu" abbrev="Spkr" name="Deceiver" ID="14503">
+        <definition>&lt;def-root&gt;The person who acts so as to give the &lt;fen&gt;Victim&lt;/fen&gt; an incorrect idea about a &lt;fen&gt;Topic&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </Arg>
+    <Arg bgColor="006400" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="07/14/2011 03:07:35 PDT Thu" abbrev="Add" name="Victim" ID="14504">
+        <definition>&lt;def-root&gt;The person who receives an incorrect idea because of the &lt;fen&gt;Deceiver&lt;/fen&gt;'s actions.&lt;/def-root&gt;</definition>
+        <semType name="Sentient" ID="5"/>
+    </Arg>
+    <Arg bgColor="0000FF" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="07/14/2011 03:07:35 PDT Thu" abbrev="Top" name="Topic" ID="14505">
+        <definition>&lt;def-root&gt;The entity to which the misleading idea relates, what it is about.&lt;/def-root&gt;</definition>
+    </Arg>
+    <Arg bgColor="800080" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="07/14/2011 03:07:35 PDT Thu" abbrev="mea" name="Means" ID="14506">
+        <definition>&lt;def-root&gt;The action performed by the &lt;fen&gt;Deceiver&lt;/fen&gt; to fool the &lt;fen&gt;Victim&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    </Arg>
+    <Arg bgColor="FFA500" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="07/14/2011 03:07:35 PDT Thu" abbrev="tim" name="Time" ID="14507">
+        <definition>&lt;def-root&gt;The time at which the deception occurs.&lt;/def-root&gt;</definition>
+    </Arg>
+    <Arg bgColor="1E90FF" fgColor="FFFFFF" coreType="Peripheral" cBy="RLG" cDate="07/14/2011 03:07:35 PDT Thu" abbrev="pla" name="Place" ID="14508">
+        <definition>&lt;def-root&gt;The location at which the deception occurs.&lt;/def-root&gt;</definition>
+    </Arg>
+    <Arg bgColor="9400D3" fgColor="FFFFFF" coreType="Core" cBy="RLG" cDate="07/14/2011 03:07:35 PDT Thu" abbrev="phe" name="Phenomenon" ID="14509">
+        <definition>&lt;def-root&gt;The &lt;fen&gt;Phenomenon&lt;/fen&gt;, as percieved by the &lt;fen&gt;Victim&lt;/fen&gt;, causes the &lt;fen&gt;Victim&lt;/fen&gt; to have an incorrect understanding about a &lt;fen&gt;Topic&lt;/fen&gt;.&lt;/def-root&gt;</definition>
+    </Arg>
+                                                                                        <lexUnit status="Created" POS="N" name="deceit.n" ID="17220" lemmaID="9762" cBy="PKe" cDate="01/07/2013 05:29:12 PST Mon">
+        <definition>FN: an act of deceiving</definition>
+        <sentenceCount annotated="0" total="0"/>
+        <lexeme order="1" headword="false" breakBefore="false" POS="N" name="deceit"/>
+    </lexUnit>
+    <lexUnit status="Created" POS="N" name="deception.n" ID="17221" lemmaID="9777" cBy="PKe" cDate="01/07/2013 05:30:02 PST Mon">
+        <definition>FN: an act of deceiving</definition>
+        <sentenceCount annotated="0" total="0"/>
+        <lexeme order="1" headword="false" breakBefore="false" POS="N" name="deception"/>
+    </lexUnit>
+</Event>
